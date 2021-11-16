@@ -1,8 +1,13 @@
 <?php
 
-
+require_once("StudentRepository.php");
 require_once("Student.php");
-if(!file_exists("myfile.json")){
+require_once("pdo.php");
+
+
+
+
+/* if(!file_exists("myfile.json")){
     file_put_contents("myfile.json", json_encode([]));
 };
 $form = json_decode(file_get_contents("myfile.json"));
@@ -17,4 +22,6 @@ array_push($form, [
 $json = json_encode($form);
 file_put_contents("myfile.json", $json);
 
-?>
+?> */
+
+

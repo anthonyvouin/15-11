@@ -9,8 +9,6 @@ class Student
         $this->Prenom = $prenom;
 
         $this->Age = $age;
-
-
       
 
     }
